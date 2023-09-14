@@ -11,16 +11,16 @@ namespace csharp_lista_indirizzi
         public string Name { get; set; }
         public string Cognome { get; set; }
         public string Strada { get; set; }
-        public string Città { get; set; }
+        public string Citta { get; set; }
         public string Provincia { get; set; }
         public int Cap { get; set; }
 
-        public Indirizzo (string nome, string cognome, string strada, string città, string provincia, int cap) 
+        public Indirizzo (string nome, string cognome, string strada, string citta, string provincia, int cap) 
         {
             Name = nome;
             Cognome = cognome;
             Strada = strada;
-            Città = città;
+            Citta = citta;
             Provincia = provincia;
             Cap = cap;
         }
